@@ -12,6 +12,7 @@ import Dropdown from './Dropdown'
 import Radiobox from './Radiobox'
 import Checkbox from './Checkbox'
 import BoxGroup from './BoxGroup'
+import Switch from './Switch'
 
 export default [
   {
@@ -86,5 +87,10 @@ export default [
     path: '/boxGroup',
     name: 'BoxGroup',
     component: BoxGroup
+  },
+  {
+    path: '/switch',
+    name: 'Switch',
+    component: Switch
   }
 ]

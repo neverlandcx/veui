@@ -7,6 +7,13 @@ import Overlay from './Overlay'
 import Breadcrumb from './Breadcrumb'
 import Input from './Input'
 import Calendar from './Calendar'
+import Select from './Select'
+import Dropdown from './Dropdown'
+import Radiobox from './Radiobox'
+import Checkbox from './Checkbox'
+import BoxGroup from './BoxGroup'
+import Switch from './Switch'
+import ButtonGroup from './ButtonGroup'
 
 export default [
   {
@@ -20,10 +27,10 @@ export default [
     component: Table
   },
   {
-    path: '/pager/:pageNo',
+    path: '/pager/:page',
     name: 'Pager',
     params: {
-      pageNo: 1
+      page: 1
     },
     component: Pager
   },
@@ -56,5 +63,40 @@ export default [
     path: '/calendar',
     name: 'Calendar',
     component: Calendar
+  },
+  {
+    path: '/select',
+    name: 'Select',
+    component: Select
+  },
+  {
+    path: '/dropdown',
+    name: 'Dropdown',
+    component: Dropdown
+  },
+  {
+    path: '/radiobox',
+    name: 'Radiobox',
+    component: Radiobox
+  },
+  {
+    path: '/checkbox',
+    name: 'Checkbox',
+    component: Checkbox
+  },
+  {
+    path: '/boxGroup',
+    name: 'BoxGroup',
+    component: BoxGroup
+  },
+  {
+    path: '/switch',
+    name: 'Switch',
+    component: Switch
+  },
+  {
+    path: '/buttonGroup',
+    name: 'ButtonGroup',
+    component: ButtonGroup
   }
 ]

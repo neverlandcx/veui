@@ -96,6 +96,7 @@ import Overlay from '../../src/components/Overlay'
 import Button from '../../src/components/Button'
 
 export default {
+  name: 'overlay-demo',
   components: {
     'veui-overlay': Overlay,
     'veui-button': Button
@@ -152,7 +153,7 @@ export default {
 @import "../../src/styles/theme-default/lib.less";
 
 .demo-overlay-box {
-  box-shadow: 1px 1px 6px @veui-shadow-color-normal;
+  box-shadow: 1px 1px 6px fadeOut(#000, 80%);
   padding: 10px 20px;
   background: #fff;
 }

@@ -49,7 +49,7 @@
 <script>
 import Icon from '@/components/Icon'
 import bus from '../bus'
-import Select from '@/components/Select'
+import Select from '@/components/Select/index'
 import Option from '@/components/Select/Option'
 import 'vue-awesome/icons/eye'
 import 'vue-awesome/icons/gift'
